@@ -1,0 +1,149 @@
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+html, body{
+	background: radial-gradient(circle at top left, #dae2fe, #4675cc);  
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover; 
+	font-size: .9rem;
+	letter-spacing: 0;
+	line-height: 1.8;
+	font-weight: 400;
+	position: relative; 
+}
+
+#content { 
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+.bg-heaven {
+	background: rgb(134,167,234);
+	background: linear-gradient(180deg, rgba(134,167,234,1) 0%, rgba(230,208,229,1) 69%, rgba(251,231,224,1) 100%);
+}
+
+.bg-c-primary {
+    background: linear-gradient(45deg,#d0e0fc,#96b1dd);
+}
+.bg-c-secondary {
+    background: linear-gradient(45deg,#f0d8ff,#ceaae5);
+}
+.bg-c-success {
+    background: linear-gradient(45deg,#ccf1dc,#64af81);
+}
+.bg-c-danger {
+    background: linear-gradient(45deg,#ffd7dd,#ecb6bf);
+}
+.bg-c-warning {
+    background: linear-gradient(45deg,#ffeecc,#ebd6b0);
+}
+.bg-c-info {
+    background: linear-gradient(45deg,#d7f2fb,#aed6e2);
+}
+.bg-c-light {
+    background: linear-gradient(45deg,#fefefe,#dedede);
+}
+.bg-c-dark {
+    background: linear-gradient(45deg,#d4d4d4,#a4a4a4);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-header:first-child {
+	padding: .75rem 1.25rem;
+	padding: .40rem 1.05rem;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.button { 
+	background: #d4cfd2;
+}
+
+.h-terminal:hover {
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.2);
+    transform: scale(1.2);
+}
+
+.img_contact:hover {
+    transform: scale(1.5);
+    color: #fff;
+}
+
+.card:hover .button_red, .card.hover .button_red { 
+	background: linear-gradient(#f37458 0%, #de4c12 100%);
+}
+.card:hover .button_yellow, .card.hover .button_yellow { 
+	background: linear-gradient(#f3f158 0%, #dddca6 100%);
+}
+.card:hover .button_green, .card.hover .button_green { 
+	background: linear-gradient(#75f358 0%, #bfdda6 100%);
+}
+.card:hover .terminal-bar, .card.hover .terminal-bar { 
+	background: linear-gradient(#504b45 0%,#3c3b37 100%);
+}
+.card:hover .terminal-body, .card.hover .terminal-body { 
+	background: rgba(56, 4,40, 0.8);
+    color: #fff;
+}
+
+.bar__button {  
+  display: flex;  
+  align-items: center;  
+  padding: 0;  
+  margin-right: 5px;  
+  font-size: 8px;  
+  height: 11px;  
+  width: 11px;  
+  box-sizing: border-box;  
+  border: none;  
+  border-radius: 100%;  
+}
+
+.terminal-bar{
+	display: flex;  
+	align-items: center;
+	background: #eee9ec;
+	cursor: pointer;
+}
+
+.terminal-body{
+	background: #fffffe;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+
+
+.modal-content-background {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-c-terminal {
+    background: linear-gradient(45deg,#6b4660,#4f113c);
+}
+
+.list-group-item {
+	background-color: transparent;
+	border-top: 1px solid #ddd;
+	border-radius: 0;
+	color: #fff;
+}
