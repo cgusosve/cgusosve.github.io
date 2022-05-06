@@ -15,6 +15,16 @@ html, body{
 	position: relative; 
 }
 
+hr {
+	display: block;
+	height: 3px;
+	width: 100%;
+	background: hsl(164.4, 54%, 80.4%);
+	border: none;
+	opacity: 2;
+	margin: 1.95rem auto;
+}
+
 #content { 
     position:absolute;
     height:100%;
@@ -50,7 +60,6 @@ html, body{
 .bg-c-dark {
     background: linear-gradient(45deg,#d4d4d4,#a4a4a4);
 }
-
 
 .card {
     border-radius: 5px;
@@ -131,8 +140,6 @@ a {
 	cursor: pointer;
 }
 
-
-
 .modal-content-background {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -146,4 +153,53 @@ a {
 	border-top: 1px solid #ddd;
 	border-radius: 0;
 	color: #fff;
+}
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
