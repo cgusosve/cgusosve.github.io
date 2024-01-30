@@ -11,7 +11,7 @@ window.onload = function(){
         { passive: true }
     );
     window.addEventListener("scroll", reveal);
-  ultCarg = "inicio";
+    ultCarg = "inicio";
 };
 
 function scrollEnd() {
